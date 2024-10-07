@@ -1,11 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 
+import CategoriesScreen from '../screens/CategoriesScreen';
+
 const Home = () => {
     return(
-        <View>
-            <Text>Home</Text>
-        </View>
+        <CategoriesScreen />
     )
 }
 
