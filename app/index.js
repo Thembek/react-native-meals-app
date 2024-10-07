@@ -12,7 +12,7 @@ const Home = () => {
     return(
         <>
             <StatusBar style='light'/>
-            <NavigationContainer>
+            <NavigationContainer independent={true}>
                 <Stack.Navigator>
                     <Stack.Screen name='MealsCategories' component={CategoriesScreen}/>
                 </Stack.Navigator>
