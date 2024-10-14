@@ -4,6 +4,6 @@ import favoritesReducer from './favorites'
 
 const store = configureStore({
     reducer: {
-        favoriteMeals: favoritesReducer;
+        favoriteMeals: favoritesReducer,
     }
 });
