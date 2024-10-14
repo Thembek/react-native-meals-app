@@ -25,13 +25,12 @@ function DrawerNavigator(){
             drawerInactiveTintColor: 'white',
             drawerActiveTintColor: '#351401',
             drawerActiveBackgroundColor: '#e4baa1',
-
         }}>
             <Drawer.Screen name='Categories' component={CategoriesScreen} options={{ 
                 title: 'All Categories', 
                 drawerIcon: ({ color, size }) => <Ionicons name='list' color={color} size={size}/>
             }}/>
-            <Drawer.Screen name='' component={FavoritesScreen} options={{
+            <Drawer.Screen name='Favorites' component={FavoritesScreen} options={{
                 drawerIcon: ({ color, size }) => (
                     <Ionicons name='star' color={color} size={size}/>
                 )
