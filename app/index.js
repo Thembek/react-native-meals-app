@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
@@ -31,7 +31,7 @@ const Home = () => {
                         //});
                     //}}
                     />
-                    <Stack.Screen name="MealDetail" component={MealDetailScreen} />
+                    <Stack.Screen name="MealDetail" component={MealDetailScreen}/>
                 </Stack.Navigator>
             </NavigationContainer>   
         </>
